@@ -1,8 +1,29 @@
-div {
-    color: #ff0000;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
-ul {
-    color: #00ff00;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+}
+.button {
+  padding: 20px 40px;
+  font-size: 24px;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+.button:active {
+  background-color: #003f7f;
+  transform: scale(0.95);
 }
