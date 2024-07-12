@@ -1,5 +1,5 @@
-const initialText = "Brishti Sharma I love you";
-const loopText = "so much";
+const initialText = "Ashmit loves Brishti";
+const loopText = "very much";
 const appendText = document.getElementById('append-text');
 
 // Append the initial text
